@@ -37,13 +37,13 @@ header{
 .hero-left{
     background-image:
     linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
-    url('images/1.jpeg');
+    url('images/puppy.jpeg');
 }
 
 .hero-right{
     background-image:
     linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
-    url('images/2.jpeg');
+    url('images/cow.jpeg');
 }
 
 .hero-content{
@@ -61,7 +61,7 @@ header{
     margin-bottom:20px;
 }
 
-/* SECTIONS */
+/* SECTION */
 section{
     padding:80px 10%;
 }
@@ -98,6 +98,34 @@ section{
 .impact-card h3{
     font-size:3rem;
     margin-bottom:10px;
+}
+
+/* FOUNDERS */
+.founders{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+    text-align:center;
+}
+
+.founder-card{
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+.founder-card h4{
+    color:#e67e22;
+    margin-bottom:5px;
+}
+
+.founder-card a{
+    display:inline-block;
+    margin-top:10px;
+    text-decoration:none;
+    color:#0077b5;
+    font-weight:600;
 }
 
 /* GALLERY */
@@ -192,6 +220,37 @@ footer{
     </div>
 </section>
 
+<!-- FOUNDERS -->
+<section>
+    <div class="section-title">
+        <h2>Founded By – Group of IITians</h2>
+    </div>
+
+    <div class="founders">
+        <div class="founder-card">
+            <h4>Abhay</h4>
+            <p>Co-Founder</p>
+            <a href="https://www.linkedin.com/in/abhay-upadhyay-22a1a7236/" target="_blank">LinkedIn</a>
+        </div>
+
+        <div class="founder-card">
+            <h4>Shivam</h4>
+            <p>Co-Founder</p>
+            <a href="https://www.linkedin.com/in/shivam-rajput-b18097237" target="_blank">LinkedIn</a>
+        </div>
+
+        <div class="founder-card">
+            <h4>Anshuman</h4>
+            <p>Co-Founder</p>
+        </div>
+
+        <div class="founder-card">
+            <h4>Bhavesh</h4>
+            <p>Co-Founder</p>
+        </div>
+    </div>
+</section>
+
 <!-- GALLERY -->
 <section>
     <div class="section-title">
@@ -199,16 +258,16 @@ footer{
     </div>
 
     <div class="gallery-grid">
-        <img src="images/1.jpg" alt="Street puppy care">
-        <img src="images/2.jpg" alt="Milk feeding drive">
-        <img src="images/3.jpg" alt="Winter support for animals">
+        <img src="images/1.jpg" alt="Animal care drive">
+        <img src="images/2.jpg" alt="Milk feeding to puppies">
+        <img src="images/3.jpg" alt="Winter relief work">
     </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
     <p>© 2026 Besahara Jeev Seva Foundation</p>
-    <p>Founded by IITians | Built with compassion 🐾</p>
+    <p>Founded by IITians | Compassion in Action 🐾</p>
 </footer>
 
 <!-- ANIMATED COUNTERS -->
